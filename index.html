@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management Application</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Task Management Application</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Add a new task" required>
+            <button type="submit">Add Task</button>
+        </form>
+       
+    </div>
+
+    <ul id="task-list"></ul>
+
+<script defer src="https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js"></script>
+<script defer src="https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"></script>
+
+    <!-- <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"></script> -->
+    
+    <script src="app.js"></script>
+   
+</body>
+</html>
